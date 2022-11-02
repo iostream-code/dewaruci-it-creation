@@ -49,7 +49,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#banner .title{
+#banner #gallery .title{
     font-family: 'Charmonman', cursive;
     font-size: 90px;
     font-weight: 700;
@@ -62,11 +62,11 @@ body{
 
 /* Gallery Section */
 
-#gallery .title{
+/*#gallery .title{
     font-family: 'Charmonman', cursive;
     font-size: 54px;
     font-weight: 400;
-}
+}*/
 
 .header .title{
     font-size: 54px;
@@ -97,5 +97,54 @@ body{
 #location .location-image{
     background-image: url(img/banner-3.jpg);
     background-size: cover;
-    background-position: bottom;   
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.grid img {
+    object-fit: cover;
+}
+
+.grid > article {
+    box-shadow: 5px 5px 5px 0px black;
+    border-radius: 30px;
+    text-align: center;
+    background: whitesmoke;
+    width: 300px;
+    transition: transform;
+}
+
+.grid > article img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.grid > article:hover {
+    transform: scale(1.2);
+}
+
+.grid .food img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45px;
+    height: 45px;
+
+}
+
+@media (max-width:1000px) {
+    .grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:500px) {
+    .grid {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
