@@ -33,11 +33,6 @@ body{
     text-align: left;
 }
 
-/*
-.nav-link {
-    scroll-behavior: smooth;
-}*/
-
 /* Banner Section */
 
 #banner{
@@ -49,7 +44,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#banner #gallery .title{
+#banner .title{
     font-family: 'Charmonman', cursive;
     font-size: 90px;
     font-weight: 700;
@@ -62,11 +57,11 @@ body{
 
 /* Gallery Section */
 
-/*#gallery .title{
+#gallery .title{
     font-family: 'Charmonman', cursive;
     font-size: 54px;
     font-weight: 400;
-}*/
+}
 
 .header .title{
     font-size: 54px;
@@ -80,7 +75,6 @@ body{
 }
 
 /* Culinery Section */
-
 #culinery .title{
     font-family: 'Charmonman', cursive;
     font-size: 54px;
@@ -88,6 +82,7 @@ body{
 }
 
 /*location*/
+
 #location .title {
     font-family: 'Charmonman', cursive;
     font-size: 54px;
