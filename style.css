@@ -57,7 +57,7 @@ body{
 
 /* Gallery Section */
 
-#gallery .title{
+#gallery, #culinery, #location, #about, .title{
     font-family: 'Charmonman', cursive;
     font-size: 54px;
     font-weight: 400;
@@ -74,20 +74,11 @@ body{
     margin-left: 50px;
 }
 
-/* Culinery Section */
-#culinery .title{
-    font-family: 'Charmonman', cursive;
-    font-size: 54px;
-    font-weight: 400;
+.grid h2 {
+    font-family: sans-serif;
 }
 
 /*location*/
-
-#location .title {
-    font-family: 'Charmonman', cursive;
-    font-size: 54px;
-    font-weight: 400;
-}
 
 #location .location-image{
     background-image: url(img/banner-3.jpg);
