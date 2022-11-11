@@ -7,6 +7,18 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.header .title {
+    font-family: 'Charmonman', cursive;
+    font-size: 54px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.header .line {
+    background: rgb(0, 0, 0);
+    height: 3px;
+}
+
 /* Navbar Section */
 
 #nav-bar {
@@ -57,142 +69,25 @@ body {
 
 /* Gallery Section */
 
-#gallery, #culinery, #location, #about, .title{
-    font-family: 'Charmonman', cursive;
-    font-size: 54px;
-    font-weight: 400;
-}
 
-.header .title {
-    font-size: 54px;
-    font-weight: 600;
-}
 
-.header .line {
-    background: rgb(0, 0, 0);
-    height: 3px;
-    margin-left: 50px;
+/* Culinery Section */
+
+#culinery h3, a, p{
+    font-family: "Raleway", sans-serif;
 }
 
 /* Culinery Section */
 
-#culinery .title {
-    font-family: "Charmonman", cursive;
-    font-size: 54px;
-    font-weight: 400;
+.card .card-text{
+    font-size: 16px;
 }
 
-.culinery-card {
-    max-width: 30%;
+.overlay{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
 }
 
-/* -Start- */
-
-.wrapper {
-    margin: 10vh;
-}
-
-/* post card styles */
-
-/* .card {
-    border: none;
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    overflow: hidden;
-    border-radius: 20px;
-    min-height: 450px;
-    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
-
-    @media (max-width: 768px) {
-        min-height: 350px;
-    }
-
-    @media (max-width: 420px) {
-        min-height: 300px;
-    }
-}
-
-.card .card-has-bg {
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    background-size: 120%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.card-has-bg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.card-has-bg:hover {
-    transform: scale(0.98);
-    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
-    background-size: 130%;
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.card-img-overlay {
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    background: rgb(35, 79, 109);
-    background: linear-gradient(0deg,
-            rgba(4, 69, 114, 0.5) 0%,
-            rgba(4, 69, 114, 1) 100%);
-}
-
-.card-footer {
-    background: none;
-    border-top: none;
-}
-
-.card-footer .media img{
-    border: solid 3px rgba(255, 255, 255, 0.3);
-}
-
-.card-meta {
-    color: #26bd75;
-}
-
-.card-body {
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.card:hover {
-    cursor: pointer;
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.card:hover.card-body {
-    margin-top: 30px;
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.card .card-img-overlay {
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    background: rgb(35, 79, 109);
-    background: linear-gradient(0deg,
-            rgba(35, 79, 109, 0.3785889355742297) 0%,
-            rgba(69, 95, 113, 1) 100%);
-}
-
-@media (max-width: 767px) {} */
-
-/* -End- */
-
-/*location*/
-#location .title {
-    font-family: "Charmonman", cursive;
-    font-size: 54px;
-    font-weight: 400;
-}
+/* Location Section */
 
 #location .location-image {
     background-image: url(img/banner-3.jpg);
