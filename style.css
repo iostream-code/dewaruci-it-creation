@@ -33,11 +33,6 @@ body {
     text-align: left;
 }
 
-/*
-.nav-link {
-    scroll-behavior: smooth;
-}*/
-
 /* Banner Section */
 
 #banner {
@@ -62,8 +57,8 @@ body {
 
 /* Gallery Section */
 
-#gallery .title {
-    font-family: "Charmonman", cursive;
+#gallery, #culinery, #location, #about, .title{
+    font-family: 'Charmonman', cursive;
     font-size: 54px;
     font-weight: 400;
 }
