@@ -7,6 +7,18 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.header .title {
+    font-family: 'Charmonman', cursive;
+    font-size: 54px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.header .line {
+    background: rgb(0, 0, 0);
+    height: 3px;
+}
+
 /* Navbar Section */
 
 #nav-bar {
@@ -57,30 +69,12 @@ body {
 
 /* Gallery Section */
 
-#gallery, #culinery, #location, #about, .title{
-    font-family: 'Charmonman', cursive;
-    font-size: 54px;
-    font-weight: 400;
-}
 
-.header .title {
-    font-size: 54px;
-    font-weight: 600;
-    padding: 0 20px;
-}
-
-.header .line {
-    background: rgb(0, 0, 0);
-    height: 3px;
-    /* margin-left: 50px; */
-}
 
 /* Culinery Section */
 
-#culinery .title {
-    font-family: "Charmonman", cursive;
-    font-size: 54px;
-    font-weight: 400;
+#culinery h3, a, p{
+    font-family: "Raleway", sans-serif;
 }
 
 /* Culinery Section */
