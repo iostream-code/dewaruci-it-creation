@@ -1,33 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 /* Navbar Section */
 
-#nav-bar{
+#nav-bar {
     top: 0;
     z-index: 10;
 }
 
-.navbar{
+.navbar {
     padding: 0;
     backdrop-filter: blur(5px);
 }
 
-.navbar-brand img{
+.navbar-brand img {
     padding-left: 20px;
 }
 
-.navbar-nav li{
+.navbar-nav li {
     padding: 0 10px;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     font-weight: 600;
     float: right;
     text-align: left;
@@ -35,22 +35,22 @@ body{
 
 /* Banner Section */
 
-#banner{
+#banner {
     background-image: url(img/banner-2.jpg);
     background-size: cover;
 }
 
-#banner p{
-    font-family: 'Raleway', sans-serif;
+#banner p {
+    font-family: "Raleway", sans-serif;
 }
 
-#banner .title{
-    font-family: 'Charmonman', cursive;
+#banner .title {
+    font-family: "Charmonman", cursive;
     font-size: 90px;
     font-weight: 700;
 }
 
-#banner a{
+#banner a {
     color: #fff;
     text-decoration: none;
 }
@@ -63,20 +63,24 @@ body{
     font-weight: 400;
 }
 
-.header .title{
+.header .title {
     font-size: 54px;
     font-weight: 600;
     padding: 0 20px;
 }
 
-.header .line{
+.header .line {
     background: rgb(0, 0, 0);
     height: 3px;
     /* margin-left: 50px; */
 }
 
-.grid h2 {
-    font-family: sans-serif;
+/* Culinery Section */
+
+#culinery .title {
+    font-family: "Charmonman", cursive;
+    font-size: 54px;
+    font-weight: 400;
 }
 
 /* Culinery Section */
@@ -94,54 +98,5 @@ body{
 #location .location-image {
     background-image: url(img/banner-3.jpg);
     background-size: cover;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: 80px;
-    align-items: center;
-    grid-gap: 50px;
-}
-
-.grid img {
-    object-fit: cover;
-}
-
-.grid > article {
-    box-shadow: 5px 5px 5px 0px black;
-    border-radius: 30px;
-    text-align: center;
-    background: whitesmoke;
-    width: 300px;
-    transition: transform;
-}
-
-.grid > article img {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
-.grid > article:hover {
-    transform: scale(1.2);
-}
-
-.grid .food img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 45px;
-    height: 45px;
-
-}
-
-@media (max-width:1000px) {
-    .grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media (max-width:500px) {
-    .grid {
-        grid-template-columns: repeat(1,1fr);
-    }
+    min-height: 100px;
 }
