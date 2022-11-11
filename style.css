@@ -73,17 +73,19 @@ body {
 
 /* Culinery Section */
 
-#culinery h3, a, p{
+#culinery h3,
+a,
+p {
     font-family: "Raleway", sans-serif;
 }
 
 /* Culinery Section */
 
-.card .card-text{
+.card .card-text {
     font-size: 16px;
 }
 
-.overlay{
+.overlay {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
 }
 
@@ -93,4 +95,13 @@ body {
     background-image: url(img/banner-3.jpg);
     background-size: cover;
     min-height: 100px;
+}
+
+/* About Section */
+
+#about img {
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    padding: 0;
 }
