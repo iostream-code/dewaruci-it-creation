@@ -66,12 +66,13 @@ body{
 .header .title{
     font-size: 54px;
     font-weight: 600;
+    padding: 0 20px;
 }
 
 .header .line{
     background: rgb(0, 0, 0);
     height: 3px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .grid h2 {
@@ -80,10 +81,12 @@ body{
 
 /*location*/
 
-#location .location-image{
+#location .location-image {
     background-image: url(img/banner-3.jpg);
     background-size: cover;
 }
+
+
 
 .grid {
     display: grid;
